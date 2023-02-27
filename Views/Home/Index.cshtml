@@ -1,0 +1,115 @@
+﻿@model Matilda_HW.Models.PostCollection
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<!-- container baslangic -->
+<div class="container">
+    <br><hr class="dashedhr"><br>
+    <div class="row">
+        <div class="sutun">
+
+            <div class="col-8">
+
+                <!-- hero başlangıç -->
+                <div class="hero">
+                    <img src="https://html.design/demo/matilda/upload/blog_01.jpg" alt="">
+                    <p>LİFESTYLE</p>
+                    <h2>How to Dress for Those In-Between Days</h2>
+                    <h5>June 11,2022 - By Matilda</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa autem quaerat velit ipsam maxime totam molestiae beatae eveniet distinctio, voluptas pariatur temporibus ad, possimus sunt dicta laudantium explicabo suscipit officiis!</p>
+                    <a href="" class="btn btn-primary">Continue Reading</a>
+                </div>
+                <!-- hero bitiş -->
+                <!-- card başlangıç -->
+
+                <div class="cards">
+
+
+                    @foreach (var item in Model.Posts)
+                    {
+                     
+                        <div class="card">
+                                <img src="https://html.design/demo/matilda/upload/blog_02.jpg" alt="">
+                                <p>BLOGGING</p>
+                                <h3>@item.title</h3>
+                                <h5>June 11,2022 - By Matilda</h5>
+                                <p>@item.body</p>
+                                <a href="/detay">CONTINUE READING</a>
+                        </div>
+                        
+                    }
+
+
+
+                </div>
+                <!-- card bitiş -->
+
+            </div>
+
+            <div class="col-4">
+                <!-- about me başlangıç -->
+                <div class="aboutme">
+
+                    <img src="https://html.design/demo/matilda/upload/about.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, sit!</p>
+                    <div class="icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-behance"></i></a>
+                    </div>
+                </div>
+                <!-- about me bitiş -->
+                <!-- follow on instagram başlangıç -->
+                <div class="follow">
+                    <h3>Follow on Instagram</h3>
+                    <img src="https://html.design/demo/matilda/upload/banner.jpg" alt="">
+                </div>
+                <br>
+                <!-- follow on instagram bitiş -->
+                <!-- blog categories başlangıç -->
+                <div class="categories">
+                    <h3>Blog Categories</h3>
+                    <a href="">LifeStyle (12)</a>
+                    <a href="">Travel (12)</a>
+                    <a href="">Fashion (12)</a>
+                    <a href="">Blogging (12)</a>
+                    <a href="">Marketing (12)</a>
+                </div>
+
+                <!-- blog categories bitiş -->
+                <!-- lastest posts başlangıç -->
+                <div class="lastposts">
+                    <h3>Lastest Posts</h3>
+                    <div class="post">
+                        <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                        <div class="post-text">
+                            <h5>A Beatiful Minimal Website Desing</h5>
+                            <h6>12 Jan,2012</h6>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                        <div class="post-text">
+                            <h5>A Beatiful Minimal Website Desing</h5>
+                            <h6>12 Jan,2012</h6>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                        <div class="post-text">
+                            <h5>A Beatiful Minimal Website Desing</h5>
+                            <h6>12 Jan,2012</h6>
+                        </div>
+                    </div>
+                </div>
+                <!-- lastest posts bitiş -->
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+</div>
+<!-- container bitiş -->

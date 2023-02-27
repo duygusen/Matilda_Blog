@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\assets\.DS_Store" />
+    <Content Remove="wwwroot\assets\css\index.css" />
+    <Content Remove="wwwroot\assets\fontawesome\.DS_Store" />
+    <Content Remove="wwwroot\assets\fontawesome\css\all.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\all.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\brands.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\brands.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\fontawesome.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\fontawesome.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\regular.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\regular.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\solid.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\solid.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\svg-with-js.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\svg-with-js.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v4-font-face.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v4-font-face.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v4-shims.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v4-shims.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v5-font-face.css" />
+    <Content Remove="wwwroot\assets\fontawesome\css\v5-font-face.min.css" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-brands-400.ttf" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-brands-400.woff2" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-regular-400.ttf" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-regular-400.woff2" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-v4compatibility.ttf" />
+    <Content Remove="wwwroot\assets\fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Remove="wwwroot\assets\img\hero.jpeg" />
+    <Content Remove="wwwroot\assets\img\hero.webp" />
+    <Content Remove="wwwroot\assets\img\logo.png" />
+    <Content Remove="wwwroot\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="RestSharp" />
+    <None Remove="Models\DetayModel.css" />
+    <None Remove="Views\Detay\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\assets\.DS_Store" />
+    <None Include="wwwroot\assets\css\index.css" />
+    <None Include="wwwroot\assets\fontawesome\.DS_Store" />
+    <None Include="wwwroot\assets\fontawesome\css\all.css" />
+    <None Include="wwwroot\assets\fontawesome\css\all.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\brands.css" />
+    <None Include="wwwroot\assets\fontawesome\css\brands.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\fontawesome.css" />
+    <None Include="wwwroot\assets\fontawesome\css\fontawesome.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\regular.css" />
+    <None Include="wwwroot\assets\fontawesome\css\regular.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\solid.css" />
+    <None Include="wwwroot\assets\fontawesome\css\solid.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\svg-with-js.css" />
+    <None Include="wwwroot\assets\fontawesome\css\svg-with-js.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v4-font-face.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v4-font-face.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v4-shims.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v4-shims.min.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v5-font-face.css" />
+    <None Include="wwwroot\assets\fontawesome\css\v5-font-face.min.css" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-v4compatibility.ttf" />
+    <None Include="wwwroot\assets\fontawesome\webfonts\fa-v4compatibility.woff2" />
+    <None Include="wwwroot\assets\img\hero.jpeg" />
+    <None Include="wwwroot\assets\img\hero.webp" />
+    <None Include="wwwroot\assets\img\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\" />
+    <Folder Include="Views\Detay\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="108.0.3" />
+  </ItemGroup>
+</Project>

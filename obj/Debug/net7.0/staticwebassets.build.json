@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "OQaCLGVQGCWn/qDBZzmdD3GuUIOHnIQSok+6oKITCpQ=",
+  "Source": "Matilda_HW",
+  "BasePath": "_content/Matilda_HW",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Matilda_HW/wwwroot",
+      "Source": "Matilda_HW",
+      "ContentRoot": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/",
+      "BasePath": "_content/Matilda_HW",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/bundle/Matilda_HW.styles.css",
+      "SourceId": "Matilda_HW",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/Matilda_HW",
+      "RelativePath": "Matilda_HW.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/bundle/Matilda_HW.styles.css"
+    },
+    {
+      "Identity": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/projectbundle/Matilda_HW.bundle.scp.css",
+      "SourceId": "Matilda_HW",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/Matilda_HW",
+      "RelativePath": "Matilda_HW.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/projectbundle/Matilda_HW.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/.DS_Store",
+      "SourceId": "Matilda_HW",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/",
+      "BasePath": "_content/Matilda_HW",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/assets/css/reset.css",
+      "SourceId": "Matilda_HW",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/",
+      "BasePath": "_content/Matilda_HW",
+      "RelativePath": "assets/css/reset.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/css/reset.css"
+    }
+  ]
+}

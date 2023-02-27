@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NOrAckWsgZZLu9xczHyEXcvc2hkjrU0hW6jUs+QcBg235J2EVNxyOXfIqR5LJMv6qW4DfeLiVZK0aKVVMd79fA==",
+  "success": true,
+  "projectFilePath": "/Users/duygusen/Desktop/Matilda_HW/Matilda_HW.csproj",
+  "expectedPackageFiles": [
+    "/Users/duygusen/.nuget/packages/restsharp/108.0.3/restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

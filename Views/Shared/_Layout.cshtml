@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Matilda's Blog</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons -->
+    <link href="/assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- eric meyer reset -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
+</head>
+<body>
+    <!-- navbar baslangic -->
+    <div class="navbar">
+        <img src="/assets/img/logo.png" alt="">
+    </div>
+    <!-- navbar bitiş -->
+
+    @RenderBody()
+
+    <!-- footer başlangıç -->
+
+    <div class="footer">
+        <div class="logo">
+            <img src="/assets/img/logo.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, fugit.</p>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-behance"></i></a>
+        </div>
+
+        <div class="lastposts">
+
+            <h3>Lastest Posts</h3>
+            <div class="post">
+                <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                <div class="post-text">
+                    <h5>A Beatiful Minimal Website Desing</h5>
+                    <h6>12 Jan,2012</h6>
+                </div>
+            </div>
+            <div class="post">
+                <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                <div class="post-text">
+                    <h5>A Beatiful Minimal Website Desing</h5>
+                    <h6>12 Jan,2012</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer bitiş -->
+
+</body>
+</html>
+

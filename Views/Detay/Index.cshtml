@@ -1,0 +1,141 @@
+﻿@model Matilda_HW.Models.CommentsCollection
+@{
+    ViewData["Title"] = "Detay";
+}
+
+<!-- container baslangic -->
+<div class="container">
+    <br><hr class="dashedhr"><br>
+    <div class="row">
+
+        <div class="col-8">
+
+            <div class="blog-media">
+                <img src="https://html.design/demo/matilda/upload/blog_01.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="blog-desc text-center">
+                <span class="cat-title">Lifestyle</span>
+                <h4>How to Dress for Those In-Between Days</h4>
+                <div class="blog-meta">
+                    <span>Posted on</span> June 16, 2018 &nbsp;-&nbsp;<span>By</span> <a href="#">Amanda</a>&nbsp;-&nbsp;<a href="#">5 Comments</a>
+                </div>
+            </div>
+            <br><hr class="dashedhr"><br>
+            <p><img width="190" src="https://html.design/demo/matilda/upload/insta_02.jpeg" alt="" class="float-left">Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam ut tortor metus. Fusce et velit nec leo rhoncus sodales. Quisque vitae turpis laoreet, finibus risus pellentesque, faucibus libero. Curabitur scelerisque rhoncus nisi ut feugiat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <p><strong>Sed vulputate libero eget libero egestas, scelerisque bibendum neque blandit. Sed faucibus quis arcu nec cursus. Vivamus bibendum tellus nec tellus pretium, ac bibendum purus ultricies.</strong></p>
+
+            <p> Sed vulputate libero eget libero egestas, scelerisque bibendum neque blandit. Sed faucibus quis arcu nec cursus. Vivamus bibendum tellus nec tellus pretium, ac bibendum purus ultricies. Quisque varius ultrices felis non fermentum. Suspendisse rhoncus tellus vitae blandit consectetur. Aenean et eleifend ligula. Integer semper, turpis ut vestibulum porta, leo leo lobortis nisl, sed convallis odio elit ac lacus. </p>
+
+            <h3>Most popular minimal template</h3>
+
+            <ul>
+                <li>Responsive layout design (compatible all mobile devices)</li>
+                <li>High resolution retina display ready</li>
+                <li>Beautiful font family and typography</li>
+                <li>Creative homepage examples</li>
+                <li>Ideal for portfolio sites to showcase your art works</li>
+            </ul>
+
+            <p> Nunc mattis augue nec tortor dignissim, et pretium massa porta. Maecenas aliquam porttitor gravida. Etiam a tellus nec neque sagittis gravida. Nam ornare felis a nulla eleifend, sed aliquet diam interdum. Phasellus ipsum erat, ullamcorper posuere commodo vel, semper vel lacus. </p>
+
+            <p> Donec nibh eros, tempor sit amet gravida vel, lobortis molestie urna. Aenean vestibulum augue urna, vitae rutrum arcu dignissim ut. Vivamus vel libero eleifend, sagittis elit id, congue sapien. Vivamus laoreet cursus dui. Nulla fringilla sem sed neque dignissim iaculis. Maecenas varius nisl nunc, et tempor mauris eleifend et. Etiam nec lobortis quam. In sed ex non lectus rhoncus consectetur sed non magna. Morbi ipsum nisi, blandit non odio et, aliquam condimentum ante. Donec at tristique tortor. Duis tristique nec lacus nec elementum. Quisque euismod pretium velit, ut efficitur risus placerat quis. Nullam at mauris ultrices, imperdiet dui vitae, venenatis lacus. Nunc placerat mauris vel ante faucibus tempus. </p>
+
+            <p><img src="https://html.design/demo/matilda/upload/insta_01.jpeg" width="165" alt="" class="float-right">Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing elit</a>. Etiam ut tortor metus. Fusce et velit nec leo rhoncus sodales. Quisque vitae turpis laoreet, finibus risus pellentesque, faucibus libero. Curabitur scelerisque rhoncus nisi ut feugiat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius tincidunt nibh, ac tincidunt metus commodo mattis. Vivamus bibendum eros sapien, sit amet venenatis ligula mollis in. Fusce ac arcu vel nibh mollis pellentesque.</p>
+
+            <hr class="dashedhr">
+
+            <div class="authorbox">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="https://html.design/demo/matilda/upload/about.jpg" alt="" class="about img-fluid">
+                    </div>
+                    <div class="col-md-9">
+                        <h4>About Matilda</h4>
+                        <p>Duis scelerisque sem at erat accumsan sodales. Duis non mattis risus, ut vehicula orci. Cras mollis augue at metus tincidunt convallis.</p>
+                        <div class="social">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-behance"></i></a>
+                        </div>
+                    </div><!-- end col -->
+                </div>
+            </div>
+
+            <hr class="dashedhr">
+
+            <div class="comments-wrapper">
+                <h3 class="custom-title">3 Comments</h3>
+                <div class="comments-list">
+
+                    @foreach (var item in Model.Comments)
+                    {
+                        <div class="media">
+                            <img src="https://html.design/demo/matilda/upload/about.jpg" alt="" class="rounded-circle">
+                            <div class="media-body">
+                                <h4 class="media-heading user_name">@item.user.username</h4>
+                                <p>@item.body</p>
+                                <a href="#" class="btn btn-primary btn-sm">Reply</a>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        <br><hr class="dashedhr"><br>
+        </div>
+
+        <div class="col-4">
+
+            <!-- follow on instagram başlangıç -->
+            <div class="follow">
+                <h3>Follow on Instagram</h3>
+                <img src="https://html.design/demo/matilda/upload/banner.jpg" alt="">
+            </div>
+            <br>
+            <!-- follow on instagram bitiş -->
+            <!-- blog categories başlangıç -->
+            <div class="categories">
+                <h3>Blog Categories</h3>
+                <a href="">LifeStyle (12)</a>
+                <a href="">Travel (12)</a>
+                <a href="">Fashion (12)</a>
+                <a href="">Blogging (12)</a>
+                <a href="">Marketing (12)</a>
+            </div>
+            <br>
+            <!-- blog categories bitiş -->
+            <!-- lastest posts başlangıç -->
+            <div class="lastposts">
+                <h3>Lastest Posts</h3>
+                <div class="post">
+                    <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                    <div class="post-text">
+                        <h5>A Beatiful Minimal Website Desing</h5>
+                        <h6>12 Jan,2012</h6>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                    <div class="post-text">
+                        <h5>A Beatiful Minimal Website Desing</h5>
+                        <h6>12 Jan,2012</h6>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="https://html.design/demo/matilda/upload/insta_09.jpeg" alt="">
+                    <div class="post-text">
+                        <h5>A Beatiful Minimal Website Desing</h5>
+                        <h6>12 Jan,2012</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- lastest posts bitiş -->
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,173 @@
+body {
+	font-family: Montserrat, Arial;
+	/*font-size: 20px;*/
+	line-height: 1.5;
+	color: #3f3b3b;
+}
+
+.container {
+	width: 1110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a{
+    color: #3f3b3b;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar img{
+    width: 200px;
+    height: 80px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastposts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+}
+
+.post img {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+.hero{
+    text-align: center;
+}
+.hero img{
+    padding-top: 20px;
+    width: 700px;
+    height: 400px;  
+}
+
+.sutun{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.cards img{
+    width: 350px;
+    height: 250px;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutme img{
+    width: 286px;
+    height: 286px;
+    border-radius: 50%;
+}
+
+.follow img{
+    width: 286px;
+    height: 286px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*detay css*/
+
+.blog-media img {
+    width: 730px;
+    height: 477px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow img {
+    width: 286px;
+    height: 286px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+.lastposts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+}
+
+.post img {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+.float-left {
+    float: left !important;
+}
+
+p img {
+    float: right !important;
+}
+
+.about {
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+}
+
+.comments-list img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+}
+
+.media-body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    align-self: center;
+}

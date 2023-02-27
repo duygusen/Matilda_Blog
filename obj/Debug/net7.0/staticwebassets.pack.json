@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/duygusen/Desktop/Matilda_HW/obj/Debug/net7.0/scopedcss/projectbundle/Matilda_HW.bundle.scp.css",
+      "PackagePath": "staticwebassets/Matilda_HW.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/duygusen/Desktop/Matilda_HW/wwwroot/assets/css/reset.css",
+      "PackagePath": "staticwebassets/assets/css/reset.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Matilda_HW.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Matilda_HW.props",
+      "PackagePath": "build\\Matilda_HW.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Matilda_HW.props",
+      "PackagePath": "buildMultiTargeting\\Matilda_HW.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Matilda_HW.props",
+      "PackagePath": "buildTransitive\\Matilda_HW.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
